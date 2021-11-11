@@ -13,7 +13,7 @@ Libraries used:
 
 3) **Tic Tac Toe** - Play against a really easy-to-beat computer opponent.
 
-*More to come soon!*
+4) **Find The Smallest Number** - Find the next smallest number in order
 
 All the best, 
 Rick
