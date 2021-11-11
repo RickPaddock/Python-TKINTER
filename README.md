@@ -11,6 +11,8 @@ Libraries used:
 
 2) **Traffic Lights** - A set of traffic lights which can be changed by pressing a button. Exciting, I know.
 
+3) **Tic Tac Toe** - Play against a really easy-to-beat computer opponent.
+
 *More to come soon!*
 
 All the best, 
