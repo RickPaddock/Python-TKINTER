@@ -1,15 +1,18 @@
+#Simple TIC TAC TOE game using tkinter! 
+#User is always 'O' and the computer randomly places 'X' so is pretty easy to beat
+
 import tkinter as tk
 from tkinter import messagebox
 from random import randrange
 
 #Set up list to capture positions played. True means position is availble. This will be replaced with X and O if played
 available_positions = [True for x in range(9)]
-#Button id is used so computer can capture and replace button text with X
+#Button id is used so computer can capture and replace button text with X/O
 button_id = []
 
 winner = None
 
-#Function to check for a winner
+#Function to check for a winner. Hardcoded every possible 3 line row/column/diagonal
 def winner_check():
     global winner
     if  available_positions[0]!=True and available_positions[0]==available_positions[1]==available_positions[2]:
@@ -28,6 +31,7 @@ def winner_check():
         winner = available_positions[3]
     elif available_positions[6]!=True and available_positions[6]==available_positions[7]==available_positions[8]:
         winner = available_positions[6]
+    #If winner has been updated from the checks above then show message & end game
     if winner != None:
         messagebox.showinfo("Winner",str(winner)+" is the winner!")   
         window.destroy()
