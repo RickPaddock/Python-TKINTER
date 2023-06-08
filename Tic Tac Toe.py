@@ -1,5 +1,7 @@
-# Simple TIC TAC TOE game using tkinter!
-# User is always 'O' and the computer randomly places 'X' so is pretty easy to beat
+#TO DO: Fix all flake8 issues
+
+#Simple TIC TAC TOE game using tkinter! 
+#User is always 'O' and the computer randomly places 'X' so is pretty easy to beat
 
 import tkinter as tk
 from tkinter import messagebox
